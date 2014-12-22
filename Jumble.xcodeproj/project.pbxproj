@@ -10,6 +10,10 @@
 		FB28E35A1A0ED0E100384A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28E3591A0ED0E100384A3E /* AppDelegate.swift */; };
 		FB28E3641A0ED0E100384A3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB28E3621A0ED0E100384A3E /* LaunchScreen.xib */; };
 		FB28E3701A0ED0E200384A3E /* JumbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28E36F1A0ED0E200384A3E /* JumbleTests.swift */; };
+		FB28E3B01A0EDC0C00384A3E /* ThingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28E3AF1A0EDC0C00384A3E /* ThingsViewController.swift */; };
+		FB28E3B21A0EEAA300384A3E /* StackedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28E3B11A0EEAA300384A3E /* StackedGridLayout.swift */; };
+		FB28E3B41A0EEF0900384A3E /* StackedGridLayoutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28E3B31A0EEF0900384A3E /* StackedGridLayoutSection.swift */; };
+		FB28E3B61A10812100384A3E /* ThingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB28E3B51A10812100384A3E /* ThingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,10 @@
 		FB28E3691A0ED0E200384A3E /* JumbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB28E36E1A0ED0E200384A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB28E36F1A0ED0E200384A3E /* JumbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumbleTests.swift; sourceTree = "<group>"; };
+		FB28E3AF1A0EDC0C00384A3E /* ThingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsViewController.swift; sourceTree = "<group>"; };
+		FB28E3B11A0EEAA300384A3E /* StackedGridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedGridLayout.swift; sourceTree = "<group>"; };
+		FB28E3B31A0EEF0900384A3E /* StackedGridLayoutSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedGridLayoutSection.swift; sourceTree = "<group>"; };
+		FB28E3B51A10812100384A3E /* ThingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 				FB28E3591A0ED0E100384A3E /* AppDelegate.swift */,
 				FB28E3581A0ED0E100384A3E /* Info.plist */,
 				FB28E3621A0ED0E100384A3E /* LaunchScreen.xib */,
+				FB28E3B11A0EEAA300384A3E /* StackedGridLayout.swift */,
+				FB28E3B31A0EEF0900384A3E /* StackedGridLayoutSection.swift */,
+				FB28E3B51A10812100384A3E /* ThingCollectionViewCell.swift */,
+				FB28E3AF1A0EDC0C00384A3E /* ThingsViewController.swift */,
 			);
 			path = Jumble;
 			sourceTree = "<group>";
@@ -186,6 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB28E35A1A0ED0E100384A3E /* AppDelegate.swift in Sources */,
+				FB28E3B01A0EDC0C00384A3E /* ThingsViewController.swift in Sources */,
+				FB28E3B61A10812100384A3E /* ThingCollectionViewCell.swift in Sources */,
+				FB28E3B21A0EEAA300384A3E /* StackedGridLayout.swift in Sources */,
+				FB28E3B41A0EEF0900384A3E /* StackedGridLayoutSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +387,7 @@
 				FB28E3751A0ED0E200384A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB28E3761A0ED0E200384A3E /* Build configuration list for PBXNativeTarget "JumbleTests" */ = {
 			isa = XCConfigurationList;
@@ -379,6 +396,7 @@
 				FB28E3781A0ED0E200384A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

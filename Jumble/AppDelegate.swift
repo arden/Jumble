@@ -13,14 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+  func application(application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
-    // Initialize Jony Ive's White World.
-    let viewController = UIViewController()
-    viewController.view.backgroundColor = UIColor.whiteColor()
+    let thingsViewController = ThingsViewController(nibName: nil, bundle: nil)
 
-    window?.rootViewController = viewController
+    window?.rootViewController = thingsViewController
 
     window?.makeKeyAndVisible()
 
